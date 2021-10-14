@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    margin: 0px auto;
+    outline: none;
+}
+body{
+    background: url(edu3.png) no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+header{
+    
+    background: url(edu1.jpg) no-repeat ;
+    background-size: cover;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px dashed  rgb(247, 101, 16);
+    width: 45%;
+}
+#todo_item{
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(228, 241, 156);
+    font-weight: bold;
+    border-radius: 2px;
+}
+.btn1{ 
+    margin-top: 10px;
+}
+li{
+    font-size: 28px;
+    border-bottom: 2px solid rgb(191, 231, 191);
+    margin-top: 16px;
+    color: #ead61a;
+}
+.edit {
+    float: right;
+  
+}
+.del{
+    float: right;
+    margin-left: 10px;   
+}
+
+@media  screen and (max-width: 575px){
+    header{width: 70%;
+    }
+    #todo_item {
+        height: 35px;
+        padding: 8px;
+        font-size: 13px;
+        border-radius: 7px}
+    .btn1{
+        width: 38%;
+        font-size: 13px;
+    }
+    .del{
+        display: flex;
+        width: 25%;
+        font-size: 13px;
+    }
+    .edit{
+        display: flex;
+        width: 21%;
+        font-size: 14px;
+    }
+    li{
+        font-size: 17px;
+    }
+    }
